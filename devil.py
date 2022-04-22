@@ -60,7 +60,8 @@ from sys import exit as exit
 
 class jalan:
 
-	def __init__(self, z):		for e in z + "\n":
+	def __init__(self, z):		
+		for e in z + "\n":
 
 			sys.stdout.write(e)
 
@@ -74,7 +75,7 @@ from concurrent.futures import ThreadPoolExecutor as ThreadPool
 
 from concurrent.futures import ThreadPoolExecutor
 
-from concurrent.futures import ThreadPoolExecutor as zthreads
+from concurrent.futures import ThreadPoolExecutor as zthreads 
 
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
 
